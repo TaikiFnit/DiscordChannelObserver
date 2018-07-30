@@ -30,7 +30,7 @@ client.on('voiceStateUpdate', (oldState, newState) => {
     return;
   }
 
-  googlehome.notify(msg, function(res) {});
+  googlehome.notify(msg, (res) => {});
   console.log(msg)
 });
 
